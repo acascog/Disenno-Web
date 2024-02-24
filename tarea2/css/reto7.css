@@ -1,0 +1,18 @@
+nav{
+    margin-top: -1%;
+    padding-top: 3%;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 6px;
+}
+i{
+    font-size: 15px;
+}
+.fondo1{
+    background-color: #2D76EE;
+}
+
+.espaciado{
+    margin-left: -60px;
+    margin-right: -60px;
+}

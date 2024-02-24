@@ -1,0 +1,30 @@
+nav{
+    margin-top: -1%;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 6px;
+}
+li{
+    font-size: 15px;
+}
+.fondo1{
+    background-color: #2D76EE;
+}
+.banner{
+    margin-top: -8px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../imagenes/banner1.jpg');
+    background-color: #a0dbf2;
+    background-blend-mode: luminosity;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+.esp{
+    padding: 100px 0;
+}
+
+p{
+    font-size: 22px;
+}

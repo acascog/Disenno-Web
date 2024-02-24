@@ -1,0 +1,22 @@
+nav{
+    margin-top: -1%;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 6px;
+}
+i{
+    font-size: 15px;
+}
+.fondo1{
+    background-color: #2D76EE;
+}
+.footer{
+    margin-top: 215px;
+}
+h5{
+    font-size: 15px;
+}
+.sectionBg{
+    background-color: rgba(123, 162, 187, 0.103);    
+
+}

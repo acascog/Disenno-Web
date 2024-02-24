@@ -1,0 +1,23 @@
+nav{
+    margin-top: -1%;
+    padding-top: 3%;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 6px;
+}
+i{
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+}
+.fondo1{
+    background-color: #2D76EE;
+}
+i{
+    font-size: 60px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}

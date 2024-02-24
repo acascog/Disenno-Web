@@ -1,0 +1,22 @@
+nav{
+    margin-top: -1%;
+}
+.navbar-expand-lg .navbar-collapse {
+    padding: 6px;
+}
+li{
+    font-size: 15px;
+}
+.fondo1{
+    background-color: #2D76EE;
+}
+.titulo{
+    font-size: 50PX;
+}
+i{
+    font-size: 80px;
+    color: #61656c;
+}
+.btnRecursos{
+    margin-bottom: 103px;
+}
