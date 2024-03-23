@@ -1,0 +1,190 @@
+a{
+	text-decoration: none;
+}
+i{
+	font-size: 25px;
+	color: #fff;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;    
+}
+header{
+	/*altura fija vertical*/
+	height: 100vh;
+}
+.aniversary-logo img{
+    width: 350px;
+    height: 350px;
+}
+.cursor{
+	cursor: pointer;
+}
+
+.contenedor1{
+	/* height: 726px; */
+    width: 590px;
+    background-image:url(../imagenes/img1.jpg);
+	background-size:contain;
+	/* background-position:; */
+	background-repeat: no-repeat;
+	padding: 0px 0px;
+	margin-right: auto;
+}
+.contenedor1 h2{
+	background-color: #0065b3;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+    border: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background-color: #0e345a;
+}
+.contenedor1 p{
+	background-color: #0065b3;
+	color: #fff;
+    border: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+    background-color: rgba(1,164,204,1);
+	margin-top: 56%;
+	
+}
+.contenedor2{
+    width: 590px;
+    background-image:url(../imagenes/img2.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	padding: 0px 0px;
+	margin-left: auto;		
+}
+.contenedor2 h2{
+	background-color: #0065b3;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+    border: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background-color: #0e345a;
+}
+.contenedor2 p{
+	background-color: #0065b3;
+	color: #fff;
+    border: none !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+    background-color: rgba(1,164,204,1);
+	margin-top: 56%;
+	
+}
+.container-fluid1{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.banner1{
+    background-image: url(../imagenes/Banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*EFECTO PARALLAX*/
+}
+.titulo2{
+	color: #fff;
+	font-size: 30px;
+}
+.contenedor3{
+	margin: 0px 0px;
+	height: 500px;
+}
+.contenedor3 h2{
+	color: #0e345a;
+}
+.contenedor4{
+	background-color: rgba(1,164,204,1);
+	background-size: cover;
+}
+.audioText{
+	font-size: 30px;
+}
+.txt{
+	font-size: 22px;
+}
+.esp{
+	width: 100%;
+}
+.carousel-control-prev-icon {
+    width: 60px;
+    height: 60px;
+    /*color fondo flechas carousel*/
+    background-color: #43678f;
+}
+.carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+    /*color fondo flechas carousel*/
+    background-color: #43678f;
+}
+.btnEvents{
+	padding-left: 30px;
+	padding-right: 30px;
+} 
+.footer{
+	background:#012f65!important;
+}
+.social a{
+	padding: 20px;
+}
+footer h5{
+	color: #fff;
+}
+
+
+
+@media (max-width: 576px) {
+	header{
+		height: 75vh;
+	}
+	.aniversary-logo img{
+		width: 150px;
+		height: 150px;
+	}
+	.contenedor2{
+		width: 590px;
+		margin-left: auto;		
+	}
+	.contenedor2 h2{
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contenedor2 p{
+		padding-bottom: 12px;
+		margin-top: 66%;
+		
+	}
+	.contenedor3 img{
+		width: 350px;
+		/*margin: 5px 5px; */
+	}
+	.contenedor3{
+		max-width: 390px;
+	}
+	.contenedor3 h2{
+		margin-bottom: 35px;
+	}
+	.contenedor4{
+		margin-top: 600px;		
+	}
+	.contenedor4 img{
+		width: 320px;
+		height: 260px;
+	}
+	.txt{
+		font-size: 15px;
+	}
+	
+}
