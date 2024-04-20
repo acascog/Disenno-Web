@@ -1,4 +1,13 @@
 a{
+	font-family: Open Sans;
+	font-size: 15px;
+}
+p{
+	font-family: Open Sans;
+	font-size: 15px;
+	font-style: normal;
+}
+a{
 	text-decoration: none;
 }
 i{
