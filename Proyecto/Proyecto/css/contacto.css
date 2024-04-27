@@ -1,0 +1,124 @@
+*formulario*/
+a{
+	font-family: Open Sans;
+	font-size: 15px;
+}
+p{
+	font-family: Open Sans;
+	font-size: 15px;
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-size: 45px;
+    color: #000;
+}
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler{
+    background-color: #d6dbe3;
+}
+.navbar-toggler:hover{
+    background-color: #d6dbe3;
+}
+.custom-toggler.navbar-toggler{
+    border-color: #d6dbe3;
+}
+
+/* PERSONALIZACIÓN LINEAS DEL MENU HAMBURGUESA */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}         
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*boton WhatsApp*/
+.container-botonws {
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    width: 75px;
+    height: 50px;
+}
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/*Boton Scrollbar*/
+.goto-top {
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    width: 75px;
+    height: 50px;
+}
+/*Formulario contacto*/
+label {
+    color: #000;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+}
+input:hover {
+    outline: 3px solid rgb(59, 57, 57);
+}
+textarea:hover {
+    outline: 3px solid rgb(59, 57, 57);
+}
+
+input, textarea {
+    cursor: pointer;
+    background-color: #e2e2e2 !important;
+}
+.btn_enviar {
+    width: 170px;
+    height: 60px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: rgb(59, 57, 57) !important;
+}
+.btn_borrar {
+    color: #fff;
+    width: 170px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 26px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border-color: #e7cdf5;
+    background-color: rgb(59, 57, 57) !important;
+}
+textarea {
+    resize: none;
+}
+.navbar{
+    background-image: url();
+}
+._parallax{
+    background-image: url(../imagenes/parallax1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*EFECTO PARALLAX*/
+    height: 300px;
+    font-size: 40px;
+}
+._tituloParallax{
+    margin-top: 80px;
+} 
+.accordion-button:hover {
+    background-color: #e2e2e2;
+}

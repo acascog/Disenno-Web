@@ -1,0 +1,28 @@
+@media (max-width: 576px) {
+	.btn_enviar, .btn_borrar{
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .wave-1{
+        background-repeat: no-repeat;
+    }
+    .wave-2{
+        background-repeat: no-repeat;
+    }
+    ._parallax{
+        font-size: 30px;
+    }
+    ._tituloParallax{
+        margin-top: 80px;
+    }
+    .video-youtube{
+        width: auto;
+    }
+    .btn-estadistica{
+        margin-left: 30%;
+    }
+    .lita-titulo{
+        margin-top: 50px;
+    }
+}

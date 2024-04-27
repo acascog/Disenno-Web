@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CarFix Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/reglas.css">
+
+    <link rel="icon" href="imagenes/logo.png"> 
+
+
+</head>
+
+<body id="contacto">
+
+<!-- MENU -->
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container menu">
+        <a class="navbar-brand logo" href="index.html">
+            <img class="w-100" style="max-width:100px;"src="imagenes/logo.png" alt="Logotipo empresarial" class="img-fluid">
+        </a>
+        <!-- Muenú hamburguesa -->
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link optmenu text-white" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle optmenu text-white" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios
+                    </a>
+                    <div class="dropdown-menu text-left " aria-labelledby="desplegable1">
+                        <a class="dropdown-item optmenu" href="llantas.html">Llantas</a>
+                        <a class="dropdown-item optmenu" href="mantenimiento.html">Mantenimiento Preventivo</a>
+                        <a class="dropdown-item optmenu" href="mecanica.html">Mecánica Rápida</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle optmenu text-white" href="#" id="desplegable1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos
+                    </a>
+                    <div class="dropdown-menu text-left " aria-labelledby="desplegable1">
+                        <a class="dropdown-item optmenu" href="productos-destacados.html">Productos</a>
+                        <a class="dropdown-item optmenu" href="paquetes.html">Paquetes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link optmenu text-white" aria-current="page" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link optmenu text-white" aria-current="page" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- formulario contacto -->
+<section>
+    <div class="text-center pt-5">
+        <h2>Contáctanos</h2>
+    </div>
+    <div class="container pb-5">
+        <form method="post" id="form">
+        
+            <div class="form-group row">
+                <div class="col-6">
+                    <div class="pt-3">
+                        <label for="contact-name" class="">Nombre:</label>
+                        <input type="text" class="form-control" placeholder="Escriba su nombre completo" size="10" required>
+                    </div>
+                </div>
+    
+                <div class="col-6">
+                    <div class="pt-3">
+                        <label for="contact-email" class="">Correo:</label>
+                        <input type="email" class="form-control" placeholder="Escriba su correo" required>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12">
+                    <div class="">
+                        <label for="contact-subject" class="">Asunto:</label>
+                        <input type="text" class="form-control" placeholder="Escriba el asunto" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="">
+                        <label for="contact-message">Comentario:</label>
+                        <textarea class="form-control" rows="7" placeholder="Escriba su comentario" required></textarea>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="pt-5"></div>
+    
+            <div class="col-12 text-center">
+                <input type="submit" value="Enviar" class="btn_enviar">
+                <input type="reset" value="Borrar" class="btn_borrar">
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- banner parallasx -->
+<section class="container-fluid _parallax py-3">
+    
+<div class="container text-center _tituloParallax" >
+   <p| class="text-center text-white"><strong>El Mejor Centro de Servicio Automotríz de Costa Rica</strong></p>
+   <a href="#">
+    <button type="button" class="btn btn-danger btnEvents mb-5"    data-bs-toggle="modal" data-bs-target="#myModal1" tabindex="22">CONOCER MÁS</button>
+</a>
+</div>
+
+<!-- CONFIGURACION MODAL -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Car Fix Center</h5>
+            </div>
+            <div class="modal-body justificar">
+                <p class="text-center" style="font-size: small;">
+                    ¡Bienvenido a Carfix Center! 🌟 Comprometidos con ofrecerte servicios automotrices de alta calidad y eficiencia. Descubre nuestra variedad de servicios especializados y déjanos cuidar de tu vehículo. ¡Agenda tu cita hoy mismo!
+                </p>
+                
+                <div class="pt-3"></div>
+            </div>
+            <div class="modal-footer">
+                <div class="container text-center">
+                    <button type="button" class="btn btn-dark cursor" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+
+<!-- mapa ubicación -->
+<section class="bg-light">
+    <h2 class="titulajes text-center pt-5">Nuestra ubicación</h2>
+    <div class="pt-5">
+
+        <!-- MAPA GOOGLE FULLSCREEN -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.8347308781904!2d-84.0494921892872!3d9.947705190114018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e454f6726f2b%3A0x727d32a7ddf3daa0!2sCarFix%20Center!5e0!3m2!1ses-419!2scr!4v1714112013886!5m2!1ses-419!2scr" 
+        width="100%" height="500" allowfullscreen="" loading="lazy">
+    </iframe>
+    </div>
+</section>
+
+<!-- preguntas frecuentes -->
+<section class="text-center pt-5">
+    <div>
+        <h2 class="pb-5">Preguntas frecuentes</h2>
+    </div>
+    <div class="container col-md-6 accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne ">
+                    ¿Cuál es el tiempo promedio de espera para un servicio de mantenimiento?
+        </button>
+            </h2>
+            <!-- agregar show si se requiere activar la sección #1 -->
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="justificar">
+                        El tiempo promedio de espera puede variar según el servicio y la demanda, pero generalmente oscila entre 1 y 2 horas. Recomendamos programar una cita para minimizar el tiempo de espera. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Qué tipos de vehículos pueden atender en Carfix Center?
+        </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="justificar">
+                        Atendemos una amplia gama de vehículos, incluyendo automóviles, camionetas y SUV de todas las marcas y modelos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Ofrecen servicios de emergencia o asistencia en carretera?
+        </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="justificar">
+                        Sí, ofrecemos servicios de asistencia en carretera y emergencias. Puedes llamarnos para obtener ayuda en caso de avería o accidente.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿Cuáles son las formas de pago aceptadas en Carfix Center?
+        </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="justificar">
+                        Aceptamos diversas formas de pago, incluyendo efectivo, tarjetas de crédito y débito, así como transferencias electrónicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    ¿Ofrecen garantías en sus servicios?
+        </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="justificar">
+                        Sí, todos nuestros servicios y productos cuentan con garantía. Si experimentas algún problema después de recibir nuestro servicio, contáctanos para resolverlo de inmediato.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="pt-5 "></div>
+</section>
+
+<!-- redes sociales -->
+<section class="container-fluid3">
+<h2 class="text-center titulo pb-5 pt-5">Síguenos en nuestras redes sociales</h2>
+<P class="text-center">
+    Ponemos a tu alcance nuestras redes sociales para que puedas estar al tanto de las últimas noticias.
+</P>
+<div class="container pb-5">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="https://www.instagram.com/">
+                    <i class="uil uil-facebook"></i>
+                </a>
+            </div>
+                <p class="text-center">
+                    Car Fix Center Costa Rica
+                </p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="https://www.instagram.com/">
+                    <i class="uil uil-instagram-alt"></i>
+                </a>
+                <!-- <h5>Test Vocacional</h5> -->
+            </div>
+            <p class="text-center">
+            @carfix-center
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <div class="text-center">
+                <a href="https://www.instagram.com/">
+                    <i class="uil uil-youtube"></i>
+                </a>
+            </div>
+            <p class="text-center">
+            Car Fix Center Costa Rica
+            </p>
+        </div>
+        </div>
+        
+</div>
+
+</section>
+
+
+
+
+<!-- BOTON WHATAPP -->
+<div class="container-botonws">
+    <a href="https://walink.co/3c1c45" class="" target="blank">
+        <lottie-player src ="json/whatsappv2.json" autoplay loop style="width: 65px; height: 65px;" class="container animacion1">
+        </lottie-player>
+    </a>
+</div>
+<!-- scrolltop -->
+<a data-scroll id="flechabtn" class="goto-top" href="#contacto" title="Ir al inicio" onclick="topFunction()">
+    <img src="imagenes/flecha.svg" class="img-fluid" alt="flecha para ir arriba">
+</a>
+
+
+
+<!-- FOOTER -->
+<footer class="container-fluid2 text-white  bg-dark">
+</div>
+<h5 class="text-center pt-2">Derechos Reservados | Cenfotec 2024</h5>
+<p class="text-center pb-2">Develop by Axel Casco G.</p>
+</footer>
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Carga botón scroll -->
+<script src="js/control.js"></script>
+<script src="js/elastico.js"></script>
+<!-- Carga del JS Video (complemento JQUERY) -->
+<script src="js/jquery.vide.min.js"></script>
+<script src="js/control.js"></script>
+<script src="js/elastico.js"></script>
+<!-- cow -->
+<script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+</script>
+
+</body>
+</html>
